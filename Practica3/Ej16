@@ -1,0 +1,22 @@
+#!/bin/bash
+if [ $# -ne 1 ]; then
+  echo "Pasa como parametro $0 una extencion"
+  exit 1
+fi
+touch resultadoEj16.txt
+sion=$1
+cant=0
+usuario=`whoami`
+for usuarios in $(cut -d ":" -f 1,6 /etc/passwd); do
+  IFS=:
+  read -r columna1 columna2 <<< "$usuarios"
+  if [ $usuario == $columna1 ]; then
+    IFS=$"\n"	  
+    for i in $(find "$columna2" -name "*.$1"); do
+      cant=$(expr $cant + 1)
+    done
+    echo "$columna1 $cant " >> resultadoEj16.txt
+
+fi
+done
+exit

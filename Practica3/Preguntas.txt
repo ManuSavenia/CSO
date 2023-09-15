@@ -1,0 +1,17 @@
+El Shell Scripting es una forma de programación en la que se utilizan scripts (pequeños programas o secuencias de comandos) escritos en un lenguaje de shell para automatizar tareas en sistemas operativos tipo Unix y Linux. El shell es una interfaz de línea de comandos que permite a los usuarios interactuar con el sistema operativo emitiendo comandos y ejecutando programas. Los scripts de shell son programas que contienen una serie de comandos y operaciones que se ejecutan de manera secuencial para realizar una tarea específica.
+
+Los scripts de shell están orientados a una amplia gama de tareas, incluyendo, pero no limitado a:
+
+Automatización de tareas repetitivas: Puedes usar scripts para automatizar tareas que realizas con frecuencia, como copiar archivos, realizar copias de seguridad, comprimir archivos, descargar datos de internet, entre otros.
+
+Administración del sistema: Los scripts de shell son muy útiles para administrar y configurar sistemas Unix y Linux. Puedes usarlos para gestionar usuarios, crear copias de seguridad, monitorear el rendimiento del sistema y realizar tareas de administración de red.
+
+Procesamiento de datos: Los scripts de shell pueden ser utilizados para procesar y manipular datos. Puedes escribir scripts para analizar archivos de registro, extraer información de archivos de texto, realizar cálculos y más.
+
+Interacción con otros programas: Los scripts de shell pueden llamar y trabajar en conjunto con otros programas y utilidades del sistema. Por ejemplo, puedes escribir un script que utilice comandos como grep, awk, sed y otros para buscar y modificar datos en archivos.
+
+Personalización del entorno de usuario: Los usuarios pueden utilizar scripts de shell para personalizar su entorno de trabajo, como la configuración de variables de entorno, alias de comandos y más.
+
+En cuanto a la compilación, los scripts de shell generalmente no se compilan. En cambio, se ejecutan directamente por el intérprete de shell, que es un programa que lee y ejecuta los comandos y las instrucciones del script línea por línea. Esto significa que no es necesario compilar un script de shell antes de ejecutarlo. Simplemente, puedes hacerlo ejecutable y luego ejecutarlo en un intérprete de shell, como Bash.
+
+La razón por la que los scripts de shell no se compilan es que están diseñados para ser scripts de alto nivel, lo que significa que son legibles por humanos y se pueden modificar fácilmente. La compilación se utiliza en lenguajes de programación de bajo nivel para generar código de máquina que es más eficiente pero menos legible para los humanos. En el caso de los scripts de shell, la interpretación en tiempo real es preferible debido a su flexibilidad y facilidad de escritura y modificación.

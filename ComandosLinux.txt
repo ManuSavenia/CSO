@@ -1,0 +1,89 @@
+# Comandos de Archivos y Directorios
+- ls: Listar archivos y directorios.
+- cd: Cambiar de directorio.
+- pwd: Mostrar el directorio actual.
+- mkdir: Crear directorios.
+- rmdir: Eliminar directorios vacíos.
+- touch: Crear archivos vacíos.
+- rm: Eliminar archivos o directorios.
+- cp: Copiar archivos y directorios.
+- mv: Mover o renombrar archivos y directorios.
+- find: Buscar archivos y directorios.
+- tar: Crear, listar y extraer archivos tar.
+- du: Mostrar el uso de espacio en disco.
+- df: Mostrar el espacio en disco disponible.
+
+# Comandos de Visualización de Archivos
+- cat: Mostrar el contenido de archivos.
+- more: Ver archivos de manera paginada.
+- less: Ver archivos de manera interactiva.
+- head: Mostrar las primeras líneas de un archivo.
+- tail: Mostrar las últimas líneas de un archivo.
+
+# Comandos de Edición de Texto
+- nano: Editor de texto en la terminal.
+- vi/vim: Editor de texto avanzado.
+- sed: Editor de flujo de texto.
+
+# Comandos de Red
+- ping: Probar la conectividad de red.
+- ifconfig: Mostrar y configurar interfaces de red.
+- netstat: Mostrar estadísticas de red.
+- ssh: Conectarse a través de SSH.
+- scp: Copiar archivos de forma segura por SSH.
+
+# Comandos de Usuarios y Grupos
+- who: Mostrar usuarios conectados.
+- whoami: Mostrar el nombre de usuario actual.
+- passwd: Cambiar la contraseña de usuario.
+- useradd: Agregar nuevos usuarios.
+- userdel: Eliminar usuarios.
+- groupadd: Agregar nuevos grupos.
+- groupdel: Eliminar grupos.
+- su: Cambiar de usuario o ejecutar como root.
+- sudo: Ejecutar comandos con privilegios de superusuario.
+
+# Comandos de Procesos
+- ps: Mostrar información de procesos.
+- top: Monitorear procesos en tiempo real.
+- kill: Terminar procesos.
+- nice: Establecer la prioridad de ejecución.
+- nohup: Ejecutar procesos en segundo plano.
+
+# Comandos de Búsqueda y Filtrado
+- grep: Buscar patrones en archivos.
+- find: Buscar archivos y directorios.
+- awk: Procesamiento de texto por líneas.
+- sed: Editor de flujo de texto.
+- sort: Ordenar líneas de texto.
+
+# Comandos de Compresión y Descompresión
+- gzip: Comprimir archivos.
+- gunzip: Descomprimir archivos comprimidos.
+- tar: Crear y extraer archivos tar.
+
+# Comandos de Estadísticas de Archivos
+- wc: Contar líneas, palabras y caracteres.
+- stat: Mostrar información detallada de archivos.
+- file: Determinar el tipo de archivo.
+
+# Comandos de Administración del Sistema
+- date: Mostrar y configurar la fecha y hora.
+- shutdown: Apagar o reiniciar el sistema.
+- reboot: Reiniciar el sistema.
+- uname: Mostrar información del sistema.
+- df: Mostrar espacio en disco disponible.
+- du: Mostrar uso de espacio en disco.
+- free: Mostrar uso de memoria.
+- df: Mostrar espacio en disco disponible.
+
+# Comandos de Redireccionamiento y Tuberías
+- >: Redireccionar salida a un archivo.
+- >>: Agregar salida a un archivo.
+- |: Crear una tubería entre comandos.
+
+# Comandos de Ayuda y Documentación
+- man: Mostrar el manual del usuario.
+- info: Mostrar información adicional.
+- --help: Mostrar ayuda para un comando específico.
+
